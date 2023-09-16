@@ -44,6 +44,8 @@ export default defineConfig({
       dirs: [
         './src/composables',
         './src/composables/**',
+        './src/hooks',
+        './src/hooks/**',
         './src/utils',
         './src/utils/**',
       ],

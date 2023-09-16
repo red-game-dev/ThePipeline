@@ -124,7 +124,7 @@ declare global {
   const until: typeof import('@vueuse/core')['until']
   const useActiveElement: typeof import('@vueuse/core')['useActiveElement']
   const useAnimate: typeof import('@vueuse/core')['useAnimate']
-  const useApiFetch: typeof import('./src/composables/api/useApiFetch')['useApiFetch']
+  const useApiFetch: typeof import('./src/hooks/api/useApiFetch')['useApiFetch']
   const useArrayDifference: typeof import('@vueuse/core')['useArrayDifference']
   const useArrayEvery: typeof import('@vueuse/core')['useArrayEvery']
   const useArrayFilter: typeof import('@vueuse/core')['useArrayFilter']
@@ -384,7 +384,6 @@ declare module 'vue' {
     readonly pausableWatch: UnwrapRef<typeof import('@vueuse/core')['pausableWatch']>
     readonly profileRequest: UnwrapRef<typeof import('./src/composables/api/auth/profileRequest')['profileRequest']>
     readonly provide: UnwrapRef<typeof import('vue')['provide']>
-    readonly queryClient: UnwrapRef<typeof import('./src/composables/queries/useQueryClient')['queryClient']>
     readonly reactify: UnwrapRef<typeof import('@vueuse/core')['reactify']>
     readonly reactifyObject: UnwrapRef<typeof import('@vueuse/core')['reactifyObject']>
     readonly reactive: UnwrapRef<typeof import('vue')['reactive']>
@@ -429,7 +428,7 @@ declare module 'vue' {
     readonly until: UnwrapRef<typeof import('@vueuse/core')['until']>
     readonly useActiveElement: UnwrapRef<typeof import('@vueuse/core')['useActiveElement']>
     readonly useAnimate: UnwrapRef<typeof import('@vueuse/core')['useAnimate']>
-    readonly useApiFetch: UnwrapRef<typeof import('./src/composables/api/useApiFetch')['useApiFetch']>
+    readonly useApiFetch: UnwrapRef<typeof import('./src/hooks/api/useApiFetch')['useApiFetch']>
     readonly useArrayDifference: UnwrapRef<typeof import('@vueuse/core')['useArrayDifference']>
     readonly useArrayEvery: UnwrapRef<typeof import('@vueuse/core')['useArrayEvery']>
     readonly useArrayFilter: UnwrapRef<typeof import('@vueuse/core')['useArrayFilter']>
@@ -683,7 +682,6 @@ declare module '@vue/runtime-core' {
     readonly pausableWatch: UnwrapRef<typeof import('@vueuse/core')['pausableWatch']>
     readonly profileRequest: UnwrapRef<typeof import('./src/composables/api/auth/profileRequest')['profileRequest']>
     readonly provide: UnwrapRef<typeof import('vue')['provide']>
-    readonly queryClient: UnwrapRef<typeof import('./src/composables/queries/useQueryClient')['queryClient']>
     readonly reactify: UnwrapRef<typeof import('@vueuse/core')['reactify']>
     readonly reactifyObject: UnwrapRef<typeof import('@vueuse/core')['reactifyObject']>
     readonly reactive: UnwrapRef<typeof import('vue')['reactive']>
@@ -728,7 +726,7 @@ declare module '@vue/runtime-core' {
     readonly until: UnwrapRef<typeof import('@vueuse/core')['until']>
     readonly useActiveElement: UnwrapRef<typeof import('@vueuse/core')['useActiveElement']>
     readonly useAnimate: UnwrapRef<typeof import('@vueuse/core')['useAnimate']>
-    readonly useApiFetch: UnwrapRef<typeof import('./src/composables/api/useApiFetch')['useApiFetch']>
+    readonly useApiFetch: UnwrapRef<typeof import('./src/hooks/api/useApiFetch')['useApiFetch']>
     readonly useArrayDifference: UnwrapRef<typeof import('@vueuse/core')['useArrayDifference']>
     readonly useArrayEvery: UnwrapRef<typeof import('@vueuse/core')['useArrayEvery']>
     readonly useArrayFilter: UnwrapRef<typeof import('@vueuse/core')['useArrayFilter']>
