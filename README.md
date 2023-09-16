@@ -60,7 +60,7 @@ Here are some improvements that would have been implemented in reality
 
 8. **Api Error Handling**: Api fetcher instance could have automatically handling the errors going to the error store, therefore would not require to configure anything from your end and just call with a specific key.
 
-9. **Storybook**: Separate the data layer and ui layer testing, along the advantage to view a demo of your isolated component.
+9. **Storybook**: Implement more stories and make sure to separate the data layer and ui layer testing, along the advantage to view a demo of your isolated component. Furthermore solve the issue of UnoCSS error upon starting storybook (Doesn't break any functionality, just annoying error).
 
 Furthermore can discussed
 
