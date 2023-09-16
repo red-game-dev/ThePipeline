@@ -1,4 +1,4 @@
-import type { LoginPayload, LoginResponse } from '~/@types'
+import type { LoginPayload, LoginResponse } from '@/@types'
 
 type UseLoginProps = LoginPayload
 

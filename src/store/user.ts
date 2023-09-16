@@ -1,5 +1,5 @@
-import type { UserProfile } from '~/@types'
-import { useErrorsStore } from '~/store'
+import type { UserProfile } from '@/@types'
+import { useErrorsStore } from '@/store'
 
 interface State {
   profile?: UserProfile | null

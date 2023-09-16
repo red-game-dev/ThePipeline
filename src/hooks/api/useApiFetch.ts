@@ -1,5 +1,5 @@
 import { createFetch } from '@vueuse/core'
-import { useAuthStore } from '~/store'
+import { useAuthStore } from '@/store'
 
 // In case of 3rd parties in reality we would move this as 3rd party api fetcher for specific provider
 export const useApiFetch = createFetch({

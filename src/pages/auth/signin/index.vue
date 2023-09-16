@@ -2,8 +2,8 @@
 import type { Rules } from 'async-validator'
 import { useAsyncValidator } from '@vueuse/integrations/useAsyncValidator'
 import type { UseFetchReturn } from '@vueuse/core'
-import type { LoginResponse } from '~/@types'
-import { useAuthStore, useErrorsStore } from '~/store'
+import type { LoginResponse } from '@/@types'
+import { useAuthStore, useErrorsStore } from '@/store'
 
 defineOptions({
   name: 'AuthSignIn',

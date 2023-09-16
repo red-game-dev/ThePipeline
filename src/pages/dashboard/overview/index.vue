@@ -1,5 +1,5 @@
 <script setup lang="ts" generic="T extends any, O extends any">
-import { useAuthStore, useErrorsStore, useUserStore } from '~/store'
+import { useAuthStore, useErrorsStore, useUserStore } from '@/store'
 
 defineOptions({
   name: 'DashboardOverview',

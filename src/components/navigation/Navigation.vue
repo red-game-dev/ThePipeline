@@ -1,5 +1,5 @@
 <script setup lang="ts" generic="T extends any, O extends any">
-import { useAuthStore } from '~/store'
+import { useAuthStore } from '@/store'
 
 const authState = useAuthStore()
 
