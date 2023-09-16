@@ -9,10 +9,25 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Button: typeof import('./src/components/Forms/Button.vue')['default']
+    ErrorMessage: typeof import('./src/components/error/ErrorMessage.vue')['default']
+    FieldError: typeof import('./src/components/Forms/FieldError.vue')['default']
+    Footer: typeof import('./src/components/footer/Footer.vue')['default']
+    FooterHeading: typeof import('./src/components/footer/FooterHeading.vue')['default']
+    FooterItem: typeof import('./src/components/footer/FooterItem.vue')['default']
+    FooterLink: typeof import('./src/components/footer/FooterLink.vue')['default']
+    FooterNavigationHeading: typeof import('./src/components/footer/FooterNavigationHeading.vue')['default']
+    FormDetails: typeof import('./src/components/Forms/FormDetails.vue')['default']
+    FormTitle: typeof import('./src/components/Forms/FormTitle.vue')['default']
+    Label: typeof import('./src/components/Forms/Label.vue')['default']
+    Loading: typeof import('./src/components/loading/Loading.vue')['default']
+    Logo: typeof import('./src/components/navigation/Logo.vue')['default']
+    Menu: typeof import('./src/components/menu/Menu.vue')['default']
+    Navigation: typeof import('./src/components/navigation/Navigation.vue')['default']
+    NavLink: typeof import('./src/components/navigation/NavLink.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheCounter: typeof import('./src/components/TheCounter.vue')['default']
-    TheFooter: typeof import('./src/components/TheFooter.vue')['default']
-    TheInput: typeof import('./src/components/TheInput.vue')['default']
+    TextInput: typeof import('./src/components/Forms/fields/TextInput.vue')['default']
+    UserDetails: typeof import('./src/components/user/UserDetails.vue')['default']
   }
 }
