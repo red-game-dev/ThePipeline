@@ -1,4 +1,4 @@
-import type { AuthTokenPayload, AuthTokenResponse } from '~/@types'
+import type { AuthTokenPayload, AuthTokenResponse } from '@/@types'
 
 type UseLoginProps = AuthTokenPayload
 

@@ -1,4 +1,4 @@
-import { useErrorsStore } from '~/store'
+import { useErrorsStore } from '@/store'
 
 interface State {
   accessToken: string | null
