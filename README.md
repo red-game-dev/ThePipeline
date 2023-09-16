@@ -28,7 +28,7 @@ To get started with ThePipeline, follow these simple installation steps:
 
 Here's what makes ThePipeline awesome:
 
-1. **Login Page**: Easily login using `john@mail.com` and `changeme` as credentials. The backend API is powered by [`https://fakeapi.platzi.com/en/rest/auth-jwt#get-user-with-session`](https://fakeapi.platzi.com/en/rest/auth-jwt#get-user-with-session). Any other credentials will result in an "Unauthorized" message.
+1. **Login Page**: Easily login using `john@mail.com` and `changeme` as credentials. The backend API is powered by [`https://fakeapi.platzi.com/en/rest/auth-jwt#get-user-with-session`](https://fakeapi.platzi.com/en/rest/auth-jwt#get-user-with-session). Any other credentials will result in an "Unauthorized" message. Make sure to commenting out `min` validation for `password` on `pages/auth/signin/index.vue`, else you won't be able to use the above credentials.
 
 2. **Dashboard**: Once logged in, you'll be redirected to a user dashboard that showcases your profile details like name, avatar, and email.
 
