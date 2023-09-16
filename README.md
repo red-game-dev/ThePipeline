@@ -48,7 +48,7 @@ Here are some improvements that would have been implemented in reality
 
 2. **Better UI**: The existing UI was built for test purposes, therefore a better design UI/UX would have been implemented.
 
-3. **Testing**: Implementing different types of tests like integration tests, unit tests, and end-to-end tests will solidify the codebase, making it less prone to bugs as we scale and add more features.
+3. **Add Better Testing**: Implementing different types of tests like integration tests, unit tests, and end-to-end tests will solidify the codebase, making it less prone to bugs as we scale and add more features.
 
 4. **SEO & Lighthouse Score**: Optimizing for search engines and aiming for a high Lighthouse score for better user experience and accessibility.
 
@@ -59,6 +59,8 @@ Here are some improvements that would have been implemented in reality
 7. **Auth Token**: Update the access token before expires automatically. This could be done through `beforeFetch` on fetching instance.
 
 8. **Api Error Handling**: Api fetcher instance could have automatically handling the errors going to the error store, therefore would not require to configure anything from your end and just call with a specific key.
+
+9. **Storybook**: Separate the data layer and ui layer testing, along the advantage to view a demo of your isolated component.
 
 Furthermore can discussed
 
