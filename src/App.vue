@@ -8,7 +8,7 @@
             <component :is="Component" />
 
             <template #fallback>
-              <Loading :is-loading="true" />
+              <Loading :loading="true" />
             </template>
           </Suspense>
         </KeepAlive>

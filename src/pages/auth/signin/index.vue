@@ -77,7 +77,7 @@ async function onLogin() {
       v-if="errorState.hasErrors('authLogin')"
       :error="errorState.latestError('authLogin')"
     />
-    <Loading :is-loading="isLoading" />
+    <Loading :loading="isLoading" />
     <form @submit.prevent="onLogin">
       <div mb-4 flex flex-col>
         <Label for="email">Email</Label>

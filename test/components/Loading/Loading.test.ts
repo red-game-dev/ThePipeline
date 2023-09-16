@@ -6,10 +6,10 @@ describe('Forms/Loading.vue', () => {
   it('should have loading visible', async () => {
     const wrapper = mount(Loading, {
       props: {
-        isLoading: true,
+        loading: true,
       },
     })
 
-    expect(wrapper.props('isLoading')).toBe(true)
+    expect(wrapper.props('loading')).toBe(true)
   })
 })

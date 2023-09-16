@@ -29,7 +29,7 @@ onMounted(async () => {
   <div class="min-h-screen flex flex-col items-center justify-center">
     <ErrorMessage v-if="errorState.hasErrors('authProfile')" :error="errorState.latestError('authProfile')" />
 
-    <Loading v-if="isLoading" :is-loading="isLoading" />
+    <Loading v-if="isLoading" :loading="isLoading" />
     <UserDetails
       v-else
       :name="userState.getProfile?.name || ''"
