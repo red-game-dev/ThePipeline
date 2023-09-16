@@ -1,6 +1,19 @@
 <template>
-  <main font-sans p="x-4 y-10" text="center gray-700 dark:gray-200">
-    <RouterView />
-    <TheFooter />
+  <main relative m-0 overflow-hidden text-center font-sans before:pointer-events-none before:z="12">
+    <Navigation />
+    <RouterView v-slot="{ Component }">
+      <template v-if="Component">
+        <KeepAlive>
+          <Suspense>
+            <component :is="Component" />
+
+            <template #fallback>
+              <Loading :is-loading="true" />
+            </template>
+          </Suspense>
+        </KeepAlive>
+      </template>
+    </RouterView>
+    <Footer />
   </main>
 </template>
