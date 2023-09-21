@@ -1,6 +1,4 @@
 <script setup lang="ts" generic="T extends any, O extends any">
-import { useAuthStore } from '@/store'
-
 const authState = useAuthStore()
 
 const NAVIGATION_ITEMS = ref({
